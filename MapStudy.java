@@ -14,6 +14,12 @@ public class MapStudy {
         //We can repeat the values but not keys as keys are set and values are List implementation
         System.out.println(map);
 
+        //for HashMap with Integer,Integer
+        for (Map.Entry<Integer, Integer> it : mpp.entrySet()) {
+            if (it.getValue() > (n / 2)) {
+                return it.getKey();
+            }
+        }
 
         Set<String> set = map.keySet();
         for (String key :
