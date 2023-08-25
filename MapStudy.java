@@ -20,7 +20,9 @@ public class MapStudy {
                 return it.getKey();
             }
         }
+        //Majority Element (>n/2) times
 
+        
         Set<String> set = map.keySet();
         for (String key :
                 set) {
