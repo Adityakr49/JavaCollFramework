@@ -78,3 +78,6 @@ HASHMAP                                         HASHTABLE
 >Works with single thread                       >Works with multiple threads
 >Allows one null key                           >Does not allow null key
 */
+/*
+getOrDefault(Object key, V defaultValue):-This method returns value mapped with the specified key, otherwise default value is returned.
+*/
