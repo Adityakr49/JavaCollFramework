@@ -31,3 +31,14 @@ public class SetStudy {
         }
     }
 }
+/*
+Operation	                            HashSet (Amortized)(Unordered Set)  TreeSet (Balanced Tree)(Ordered Set)
+Insertion (add)	                        O(1)	                            O(log n)
+Deletion (remove)	                    O(1)	                            O(log n)
+Search (contains)	                    O(1)	                            O(log n)
+Minimum	                                N/A	                                O(1)
+Maximum	                                N/A	                                O(1)
+Successor	                            N/A	                                O(log n)
+Predecessor	                            N/A	                                O(log n)
+Uses                                    Hash Tables                         Red-Black Tree
+*/
