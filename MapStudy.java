@@ -81,3 +81,17 @@ HASHMAP                                         HASHTABLE
 /*
 getOrDefault(Object key, V defaultValue):-This method returns value mapped with the specified key, otherwise default value is returned.
 */
+
+/*
+Method	                    Description
+put(key, value)	            Adds a key-value pair to the hashmap.
+get(key)	                Retrieves the value associated with a key.
+containsKey(key)	        Checks if the hashmap contains a specific key.
+containsValue(value)	    Checks if the hashmap contains a specific value.
+remove(key)	                Removes a key-value pair based on the key.
+size()	                    Returns the number of key-value pairs.
+isEmpty()	                Checks if the hashmap is empty.
+keySet()	                Returns a set of all keys in the hashmap.
+values()	                Returns a collection of all values.
+entrySet()	                Returns a set of all key-value pairs (entries).
+*/
