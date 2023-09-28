@@ -58,3 +58,14 @@ public class ComparatorInterface {
 }
 //Got ConcurrentModificationException because by mistake wrote the next modification code inside for each 1st which
 //tried to change the collection while i was iterating
+
+
+/*
+//To sort array of string in order of their length
+public class Comp implements Comparator<String>{
+    @Override
+    public int compare(String str1,String str2){
+        return Integer.compare(str1.length(),str2.length());
+    }
+}
+*/
